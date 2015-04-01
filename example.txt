@@ -1,0 +1,23 @@
+# expression evaluation and assignment
+x=(1+2)*(3+1);
+x=1;y=x+1;z=x+y;
+
+# string concatentation (returns "mark1")
+x='mark'@1;
+
+# array with 3 elements
+x={1,2,3};
+
+# array of arrays
+x={1,{2,{3,4,5},6},7};
+
+# basic function
+func add_one( x ) {
+    return( x+1 );
+}
+
+# branch
+x = 1;
+if( x == 1 ) {
+  # do stuff
+}
